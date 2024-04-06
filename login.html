@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page de Connexion</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>
+    <p class="blogname">Le blog de fou</p>
+    <nav class="liens">
+        <ul>
+            <li><a href="login.html">Se connecter</a></li>
+            <li><a href="index.html">Accueil</a></li>
+        </ul>        
+    </nav>
+</header>
+
+<main class="login-form">
+    <form action="/index" method="post">
+        <label for="email">Adresse mail :</label>
+        <input type="email" id="email" name="email" required autofocus autocomplete="username">
+        
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required autocomplete="current-password">
+        
+        <input type="submit" id="submit" name="submit" value="Connexion">
+    </form>
+</main>
+
+<footer class="footer">
+    <p>Droit d'auteur © 2024 YannCorp.</p>
+</footer>
+
+</body>
+</html>
