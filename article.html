@@ -21,46 +21,78 @@
 <main>
     <h1 >Lire l'article</h1>
 
-    <section class="articlecomplet">
-        <h2 style="font-size:20px;">Titre</h2>
-        <p class="articletext">Ceci est un texte de fou</p>
+    <section class="articlefull">
+        <h3>Titre de l'article</h3>
+        <p class="articlefulltext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        <a class="articlelink" href="index.html">Retour a l'accueil</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>Entête 1</th>
+                    <th>Entête 2</th>
+                    <th>Entête 3</th>
+                    <th>Entête 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cellule 1-1</td>
+                    <td>Cellule 1-2</td>
+                    <td>Cellule 1-3</td>
+                    <td>Cellule 1-4</td>
+                </tr>
+                <tr>
+                    <td>Cellule 2-1</td>
+                    <td>Cellule 2-2</td>
+                    <td>Cellule 2-3</td>
+                    <td>Cellule 2-4</td>
+                </tr>
+                <tr>
+                    <td>Cellule 3-1</td>
+                    <td>Cellule 3-2</td>
+                    <td>Cellule 3-3</td>
+                    <td>Cellule 3-4</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Pied 1</th>
+                    <th>Pied 2</th>
+                    <th>Pied 3</th>
+                    <th>Pied 4</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <p class="articlefulltext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <div class="articlelinks">
+            <a href="index.html">Retour a l'accueil</a>
+        </div>
+
         <img src="img1.webp" class="articleimg" alt="image de l'article">
     </section>
 
-    <table class="commentaires">
-        <tbody>
-            <tr>
-                <th>Entête 1</th>
-                <th>Entête 2</th>
-                <th>Entête 3</th>
-                <th>Entête 4</th>
-            </tr>
-            <tr>
-                <td>Cellule 1-1</td>
-                <td>Cellule 1-2</td>
-                <td>Cellule 1-3</td>
-                <td>Cellule 1-4</td>
-            </tr>
-            <tr>
-                <td>Cellule 2-1</td>
-                <td>Cellule 2-2</td>
-                <td>Cellule 2-3</td>
-                <td>Cellule 2-4</td>
-            </tr>
-            <tr>
-                <td>Cellule 3-1</td>
-                <td>Cellule 3-2</td>
-                <td>Cellule 3-3</td>
-                <td>Cellule 3-4</td>
-            </tr>
-        </tbody>
-    </table>
+    <section class="allcomments">
+        <div class="comment">
+            <h3>Utilisateur 1</h2>
+            <p class="commenttext">Commentaire 1</p>
+        </div>
+
+        <div class="comment">
+            <h3>Utilisateur 2</h2>
+            <p class="commenttext">Commentaire 2</p>
+        </div>
+
+        <div class="comment">
+            <h3>Utilisateur 3</h2>
+            <p class="commenttext">Commentaire 3</p>
+        </div>
+    </section>
 </main>
 
 <footer class="footer">
-    <p>Droit d'auteur © 2024 YannCorp.</p>
+    <p>Droit d'auteur © 2024 Yann™</p>
 </footer>
 
 </body>
