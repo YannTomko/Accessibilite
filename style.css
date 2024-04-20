@@ -3,7 +3,7 @@ body {
 }
 
 header { 
-    background-color: grey;
+    background-color: #606060;
     color: white;
     display: flex;
     align-items: center; 
@@ -79,8 +79,9 @@ article {
     width: 150px;
     height: 150px;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 5px;
+    right: 5px;
+
 }
 
 .articlefull {
@@ -100,7 +101,7 @@ article {
     text-overflow: ellipsis;
     display: -webkit-box;
     word-wrap: break-word;
-    padding-right: 160px;
+    padding-right: 10px;
 }
 
 .allcomments {
@@ -122,7 +123,7 @@ article {
 }
 
 footer { 
-    background-color: grey; color: white; padding: 10px; text-align: center; bottom: 0; width: auto; 
+    background-color: #606060; color: white; padding: 10px; text-align: center; bottom: 0; width: auto; 
 }
 
 .login-form { 
@@ -182,8 +183,8 @@ th {
 }
 
 @media (max-width: 600px) {
-    header p, .header img {
-        margin: 0 5px;
+    header img {
+        margin-bottom: 20px;
     }
     header { 
         background-color: grey;
@@ -193,16 +194,26 @@ th {
         align-items: center;
         justify-content: center; 
         width: 100%;
-        height: 150px;
-    }
-    .blogname {
-        padding: 20px;
-        padding-top: 0px
+        height: 200px;
     }
     .blog-post {
         width: 90%;
     }
     body {
         font-size: medium;
+    }
+
+    .articlelinks {
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articlelinks * {
+        margin-bottom: 10px;
+    }
+
+    article {
+        height:200px;
     }
 }
