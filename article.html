@@ -1,98 +1,127 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Publication du Blog</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Publication du Blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <img src="./logo.png" alt="Logo du blog de fou de Yann">
-    <nav class="liens">
-        <ul>
-            <li><a href="login.html">Se connecter</a></li>
-            <li><a href="index.html">Accueil</a></li>
-        </ul>        
-    </nav>
-</header>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="./logo.png" alt="Logo du blog de fou de Yann">
+        </a>
+        <nav class="liens">
+            <ul>
+                <li><a href="login.html" aria-label="Se connecter">Se connecter</a></li>
+                <li><a href="index.html" aria-label="Acceuil">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<main>
-    <h1 >Lire l'article</h1>
+    <main>
+        <article>
+            <h1>Un chat fatigué</h1>
 
-    <section class="articlefull">
-        <h2>Titre de l'article</h2>
-        <p class="articlefulltext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="articlefull">
+                <p class="articlefulltext">
+                    Le petit chat blanc, épuisé par une longue journée de jeu, 
+                    cherche un endroit confortable pour se reposer. 
+                    Ses yeux mi-clos trahissent sa fatigue, 
+                    tandis qu'il s'étire paresseusement avant de s'allonger 
+                    sur le canapé moelleux.
+                </p>
+            
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temps de jeu</th>
+                            <th>Sommeil</th>
+                            <th>Repas</th>
+                            <th>Ronronnements</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2 heures</td>
+                            <td>4 heures</td>
+                            <td>30 minutes</td>
+                            <td>10 minutes</td>
+                        </tr>
+                        <tr>
+                            <td>3 heures</td>
+                            <td>5 heures</td>
+                            <td>25 minutes</td>
+                            <td>15 minutes</td>
+                        </tr>
+                        <tr>
+                            <td>1 heure</td>
+                            <td>6 heures</td>
+                            <td>20 minutes</td>
+                            <td>5 minutes</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>6 heures</th>
+                            <th>15 heures</th>
+                            <th>1 heure 15 minutes</th>
+                            <th>30 minutes</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            
+                <p class="articlefulltext">
+                    Ce chaton blanc apprécie particulièrement les longues siestes 
+                    après avoir exploré chaque recoin de la maison. 
+                    Chaque ronronnement est un signe de contentement, 
+                    ajoutant à son charme irrésistible. 
+                    La douce chaleur du soleil est l'endroit préféré pour ses 
+                    moments de détente.
+                </p>
+            
+                <div class="articlelinks">
+                    <a href="index.html">Retour à l'accueil</a>
+                </div>
+            </div>
+            
+        </article>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Entête 1</th>
-                    <th>Entête 2</th>
-                    <th>Entête 3</th>
-                    <th>Entête 4</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Cellule 1-1</td>
-                    <td>Cellule 1-2</td>
-                    <td>Cellule 1-3</td>
-                    <td>Cellule 1-4</td>
-                </tr>
-                <tr>
-                    <td>Cellule 2-1</td>
-                    <td>Cellule 2-2</td>
-                    <td>Cellule 2-3</td>
-                    <td>Cellule 2-4</td>
-                </tr>
-                <tr>
-                    <td>Cellule 3-1</td>
-                    <td>Cellule 3-2</td>
-                    <td>Cellule 3-3</td>
-                    <td>Cellule 3-4</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th>Pied 1</th>
-                    <th>Pied 2</th>
-                    <th>Pied 3</th>
-                    <th>Pied 4</th>
-                </tr>
-            </tfoot>
-        </table>
+        <section class="allcomments">
+            <h2>Commentaires</h2>
+            <article class="comment">
+                <div class="commentheader">
+                    <h3>XxSniperBeastxX</h3>
+                    <p>05/03/2024</p>
+                </div>
+                <p class="commenttext">Le chat est fatigué :o</p>
+            </article>
 
-        <p class="articlefulltext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="comment">
+                <div class="commentheader">
+                    <h3>DarkDestroyer92</h3>
+                    <p>05/03/2024</p>
+                </div>
+                <p class="commenttext">Dinguerie j'aurais pas cru</p>
+            </div>
 
-        <div class="articlelinks">
-            <a href="index.html">Retour a l'accueil</a>
-        </div>
-    </section>
+            <div class="comment">
+                <div class="commentheader">
+                    <h3>EliteGamerZ420</h3>
+                    <p>05/03/2024</p>
+                </div>
+                <p class="commenttext">chokbar 2 bz</p>
+            </div>
+        </section>
+    </main>
 
-    <section class="allcomments">
-        <h2>Commentaires</h2>
-        <div class="comment">
-            <h3>Utilisateur 1</h3>
-            <p class="commenttext">Commentaire 1</p>
-        </div>
-
-        <div class="comment">
-            <h3>Utilisateur 2</h3>
-            <p class="commenttext">Commentaire 2</p>
-        </div>
-
-        <div class="comment">
-            <h3>Utilisateur 3</h3>
-            <p class="commenttext">Commentaire 3</p>
-        </div>
-    </section>
-</main>
-
-<footer class="footer">
-    <p>Droit d'auteur © 2024 Yann™</p>
-</footer>
+    <footer class="footer">
+        <p>Droit d'auteur © 2024 Yann™</p>
+    </footer>
 
 </body>
+
 </html>

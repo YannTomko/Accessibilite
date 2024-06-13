@@ -9,11 +9,13 @@
 <body>
 
 <header>
-    <img src="./logo.png" alt="Logo du blog de fou de Yann">
+    <a href="index.html" class="logo">
+        <img src="./logo.png" alt="Logo du blog de fou de Yann">
+    </a>
     <nav class="liens">
         <ul>
-            <li><a href="login.html">Se connecter</a></li>
-            <li><a href="index.html">Accueil</a></li>
+            <li><a href="login.html" aria-label="Se connecter">Se connecter</a></li>
+            <li><a href="index.html" aria-label="Acceuil">Accueil</a></li>
         </ul>        
     </nav>
 </header>
@@ -21,67 +23,56 @@
 <main>
     <h1>Liste d'articles</h1>
 
-    <div class="blog-articles">
-        <article>
-            <h2>Article 1</h2>
-            <p class="articletext">Texte de l'article 1</p>
+    <section class="blog-articles">
+        <article class="articleindex">
+            <h2>Un chat fatigué</h2>
+            <p class="articletext">
+                Le petit chat blanc, épuisé par une longue journée de jeu, 
+                cherche un endroit confortable pour se reposer. 
+                Ses yeux mi-clos trahissent sa fatigue, 
+                tandis qu'il s'étire paresseusement avant de s'allonger 
+                sur le canapé moelleux.
+            </p>
             
             <div class="articlelinks">
-                <a href="article.html" aria-label="Lire l'article 1">Lire l'article</a> 
-                <a href="" aria-label="Commentaires de l'article 1">Commentaires</a>
+                <a href="article.html" aria-label="Lire l'article un chat fatigué">Lire l'article</a> 
+                <a href="" aria-label="Commentaires de l'article un chat fatigué">Commentaires</a>
             </div>
             
-            <img src="img1.webp" class="articleimg" alt="image article 1">
+            <img src="img1.webp" class="articleimg" alt="Un chat qui est vraiment très fatigué.">
         </article>
 
-        <article>
-            <h2>Article 2</h2>
-            <p class="articletext">Texte de l'article 2</p>
-            
-            <div class="articlelinks">
-                <a href="article.html" aria-label="Lire l'article 2">Lire l'article</a> 
-                <a href="" aria-label="Commentaires de l'article 2">Commentaires</a>
-            </div>
-
-            <img src="img1.webp" class="articleimg" alt="image article 2">
-        </article>
-
-        <article>
-            <h2>Article 3</h2>
-            <p class="articletext">Texte de l'article 3</p>
+        <article class="articleindex">
+            <h2>Ce chat est étonnamment étonné</h2>
+            <p class="articletext">
+                Un chat, habituellement stoïque, 
+                a été vu écarquillant les yeux de surprise ce matin. 
+                La cause de son étonnement ? Un simple concombre placé derrière lui.
+            </p>
             
             <div class="articlelinks">
-                <a href="article.html" aria-label="Lire l'article 3">Lire l'article</a> 
-                <a href="" aria-label="Commentaires de l'article 3">Commentaires</a>
+                <a href="article.html" aria-label="Lire l'article ce chat est étonnamment étonné">Lire l'article</a> 
+                <a href="" aria-label="Commentaires de l'article ce chat est étonnamment étonné">Commentaires</a>
             </div>
 
-            <img src="img1.webp" class="articleimg" alt="image article 3">
+            <img src="img2.webp" class="articleimg" alt="Un chat étonné de ce qu'il vient d'entendre.">
         </article>
 
-        <article>
-            <h2>Article 4</h2>
-            <p class="articletext">Texte de l'article 4</p>
+        <article class="articleindex">
+            <h2>Il est concentré</h2>
+            <p class="articletext">
+                Un chat observe attentivement le photographe. 
+                Ses yeux perçants suivent chaque mouvement de l'homme.
+            </p>
             
             <div class="articlelinks">
-                <a href="article.html" aria-label="Lire l'article 4">Lire l'article</a> 
-                <a href="" aria-label="Commentaires de l'article 4">Commentaires</a>
+                <a href="article.html" aria-label="Lire l'article il est concentré">Lire l'article</a> 
+                <a href="" aria-label="Commentaires de l'article il est concentré">Commentaires</a>
             </div>
 
-            <img src="img1.webp" class="articleimg" alt="image article 4">
+            <img src="img3.webp" class="articleimg" alt="Un chat fixant la caméra, il a l'air concentré.">
         </article>
-
-        <article>
-            <h2>Article 5</h2>
-            <p class="articletext">Texte de l'article 5</p>
-            
-            <div class="articlelinks">
-                <a href="article.html" aria-label="Lire l'article 5">Lire l'article</a> 
-                <a href="" aria-label="Commentaires de l'article 5">Commentaires</a>
-            </div>
-
-            <img src="img1.webp" class="articleimg" alt="image article 5">
-        </article>
-    </div>
+    </section>
 </main>
 
 <footer class="footer">
