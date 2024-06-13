@@ -77,8 +77,8 @@ header {
 
 .articleimg {
     object-fit: cover;
-    width: 220px;
-    height: 220px;
+    width: 210px;
+    height: 210px;
     position: absolute;
     top: 5px;
     right: 5px;
