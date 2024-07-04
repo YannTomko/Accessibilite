@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Page de Connexion</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Page de connexion">
+    <title>Page de Connexion</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <a href="index.html" aria-hidden class="logo">
-        <img src="./logo.png" alt="Logo du blog de fou de Yann">
-    </a>
-    <nav class="liens">
-        <ul>
-            <li><a href="login.html" aria-label="Lien pour se connecter">Se connecter</a></li>
-            <li><a href="index.html" aria-label="Lien vers l'acceuil">Accueil</a></li>
-        </ul>        
-    </nav>
-</header>
+    <header>
+        <a href="index.html" aria-hidden class="logo">
+            <img src="./logo.png" alt="Logo du blog de fou de Yann">
+        </a>
+        <nav class="liens">
+            <ul>
+                <li><a href="login.html" aria-label="Lien pour se connecter">Se connecter</a></li>
+                <li><a href="index.html" aria-label="Lien vers l'acceuil">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<main>
-    <h1>Connexion</h1>
+    <main>
+        <h1>Connexion</h1>
 
-    <form action="/index.html" method="post" onsubmit="window.location.href='/index.html';return false;" class="login-form">
-        <label for="email">Adresse mail :</label>
-        <input type="email" id="email" name="email" required autofocus autocomplete="username">
-        
-        <label for="password">Mot de passe :</label>
-        <input type="password" id="password" name="password" required autocomplete="current-password">
-        
-        <input type="submit" id="submit" name="submit" value="Connexion">
-    </form>
-</main>
+        <form action="/index.html" method="post" onsubmit="window.location.href='/index.html';return false;"
+            class="login-form">
+            <label for="email">Adresse mail :</label>
+            <input type="email" id="email" name="email" required autofocus autocomplete="username">
 
-<footer class="footer">
-    <p>Droit d'auteur © 2024 Yann™</p>
-</footer>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required autocomplete="current-password">
+
+            <input type="submit" id="submit" name="submit" value="Connexion">
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>Droit d'auteur © 2024 Yann™</p>
+    </footer>
 
 </body>
+
 </html>
